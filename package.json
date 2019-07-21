@@ -1,0 +1,26 @@
+{
+  "name": "webpackbabel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/* && webpack",
+    "server": "rm -rf dist/* && webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/runtime-corejs3": "^7.5.5",
+    "core-js": "^3.1.4"
+  }
+}

@@ -1,0 +1,2 @@
+export const getRandom = (arr = []) => (arr[Math.floor(Math.random() * arr.length)]);
+export const createParagraph = (value = null) => { const a = document.createElement('p'); a.textContent = `${value}`; return a; };
